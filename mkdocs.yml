@@ -1,0 +1,102 @@
+# Project information
+site_name: Sideloading-docs
+site_url: https://cagecellag.github.io/sideloading-docs
+site_author: CageCell
+site_description: >-
+  Write your documentation in Markdown and create a professional static site in
+  minutes – searchable, customizable, in 60+ languages, for all devices
+
+# Repository
+repo_name: Cagecellag/sideloading-docs
+repo_url: https://github.com/Cagecellag/sideloading-docs
+
+site_name: My Wiki
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - content.tabs.link
+    - content.code.copy
+    - content.cards
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.prefetch
+
+  custom_dir: docs/overrides
+  palette:
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: black
+        accent: indigo
+        toggle:
+          icon: material/toggle-switch-off
+          name: Switch to light
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: indigo
+        accent: indigo
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to dark mode
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: docs/assets/favicon.jpg
+  icon:
+    logo: logo
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_css:
+  - assets/extra.css
+
+extra_javascript:
+  - assets/extra.js
+
+
+nav:
+  - Home: 
+      - index.md
+  - Sideloading: 
+      - side/index.md 
+      - Sideloading with PC: side/pc-free.md
+      - Buying a Dev Account (how lmao): side/dev-account.md
+      - Paid Certificates: side/enterprise.md
+      - Leaked Certificates: side/leaked.md
+      - Jailbreaking Your Device: side/jailbreak.md
+
+      - Outsourced docs:
+        - side/outsourced/index.md
+        - Repos for Sideloading: side/outsourced/repos.md
+
+
+
+  - FAQ: faq.md
+  - Guides:
+      - Guides Overview: guides/index.md
+      - Getting Started: guides/getting-started.md
+      - Advanced: guides/advanced.md
+  - Tools:
+      - Tools Overview: tools/index.md
+      - Android: tools/android.md
+      - iOS: tools/ios.md
+
+
+
+
