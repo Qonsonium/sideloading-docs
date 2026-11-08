@@ -8,10 +8,10 @@
 
 <div class="grid cards" markdown>
 
--   [Sideloading docs:](side/)
+-   [Sideloading docs:](side/index.md)
     - Here you can find detailed iOS sideloading documentation.
 
--   [:fontawesome-solid-users: **Community**](community.md)
+-   [:fontawesome-solid-users: **Community**](https://github.com/Qonsonium/sideloading-docs/discussions)
     - Links to Discords, forums, and groups.
 
 </div>

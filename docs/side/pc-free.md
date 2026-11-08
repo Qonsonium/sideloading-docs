@@ -20,7 +20,7 @@ Just choose a method and it will bring you to an instructions page on how to ins
 ## Additional Info & Limitations
 - Keep in mind, if for some reason you can't install the required apps on your PC or don't want to remove iCloud from the Microsoft Store, you can also create a Windows 10 or 11 virtual machine.
 - Your Apple ID acts as your **signing certificate**. 
-- There are also app IDs, but I don't fully understand them; you can always look them up on the [respective subreddits.](/side/#respective-subreddits)
+- There are also app IDs, but I don't fully understand them; you can always look them up on the [respective subreddits.](index.md#respective-subreddits)
 - You can sideload **only 3 apps** at a time using a free Apple ID.  
 - Apps must be **re-signed every 7 days** to remain functional.   
 - **Push notifications** and **in-app link opening** (e.g., https://reddit.com → Reddit app) are not supported. However, URI schemes (e.g., reddit:// → Reddit app) will work. 
@@ -55,7 +55,7 @@ Simply click on the "Get Started" button on the website to see the instructions.
 
 ### [**Sideloadly**](https://sideloadly.io/)
 
-For installation instructions, use the tutorial tab on the website, which leads to a YouTube video, or search for it on the [respective subreddit.](/side/#respective-subreddits)
+For installation instructions, use the tutorial tab on the website, which leads to a YouTube video, or search for it on the [respective subreddit.](index.md#respective-subreddits)
 
 - Sideloadly is the most basic method of the three. 
 - The **three app slots limitation** still applies. Sideloadly isn't a physical app on your device; it's just an app on your PC, so you can use all 3 app slots for other apps.
@@ -66,7 +66,7 @@ For installation instructions, use the tutorial tab on the website, which leads 
 
 ## Tips
 - Try to **refresh apps** every few days to avoid them expiring after **7 days**.
-- To avoid **limiting yourself to only three apps**, you can use [LiveContainer](https://github.com/LiveContainer/LiveContainer). (For more information, try searching for it on the [respective subreddit.](/side/#respective-subreddits))
+- To avoid **limiting yourself to only three apps**, you can use [LiveContainer](https://github.com/LiveContainer/LiveContainer). (For more information, try searching for it on the [respective subreddit.](index.md#respective-subreddits))
 - With LiveContainer, you can install unlimited apps; it acts like a VM for apps.
 - With SideStore, you can install the [LiveContainer+SideStore](https://github.com/LiveContainer/LiveContainer/releases) combination so you can free up an app slot and use LiveContainer in its place.
 
